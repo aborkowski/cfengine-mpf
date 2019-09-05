@@ -984,7 +984,7 @@ For example:
 {
   "vars":{
     "control_common_bundlesequence_end": [ "mybundle1", "mybundle2" ]
-  }
+  },
 
   "inputs": [ "services/mybundles.cf" ]
 }
@@ -992,7 +992,7 @@ For example:
 
 **Notes:**
 
-* The order in which bundles are actuates is not guaranteed.
+* The order in which bundles are actuated is not guaranteed.
 * The agent will error if a named bundle is not part of inputs.
 
 **History**: Added in 3.10.0
